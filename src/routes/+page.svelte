@@ -8,6 +8,7 @@ This is your page!
   import ArticleBody from '$lib/components/ArticleBody.svelte';
   import Image from '$lib/components/Image.svelte';
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
+  import SnapBens from '$lib/components/SnapBens.svelte';
 
   // Article metadata
   let headline = 'Become a force for good. Join our next class.';
@@ -84,6 +85,8 @@ This is your page!
       We invite you to be part of our world.
     </p>
   </ArticleBody>
+
+  <SnapBens />
 
   <!-- Related Stories: Links to other articles -->
   <RelatedLinks
