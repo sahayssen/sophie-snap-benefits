@@ -7,11 +7,11 @@
 <h3> How many people rely on SNAP benefits in this state? </h3>
   <label for="state">Choose a state</label>
   <input list="state-options" id="state" name="state" bind:value={selectedState} />
-  <select id="state-options">
+  <datalist id="state-options">
     <option value="Arizona">Arizona</option>
     <option value="Alaska">Alaska</option>
     <option value="Alabama">Alabama</option>
-  </select>
+  </datalist>
 </div>
 <div class="answer">
   {#if selectedState === "Arizona"}
